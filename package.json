@@ -1,0 +1,22 @@
+{
+  "name": "slack-summarizer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "config": "node src/commands/configure.js"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@slack/bolt": "^3.17.0",
+    "compromise": "^14.10.0",
+    "conf": "^11.0.2",
+    "cron": "^3.1.6",
+    "date-fns": "^3.0.6",
+    "dotenv": "^16.3.1",
+    "googleapis": "^129.0.0",
+    "nodemon": "^3.0.2",
+    "yargs": "^17.7.2"
+  }
+}
